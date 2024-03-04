@@ -4,11 +4,11 @@ body {
     text-align: center;
     margin: auto;
     font-family: sans-serif;
-    cursor: url(images/cursor.png) ,auto;
+    cursor: url(images/cursor.png), auto;
 }
 
-hr{
-    margin:0px 100px;
+hr {
+    margin: 0px 100px;
     border-color: black;
 }
 
@@ -20,6 +20,12 @@ h1 {
 .header {
     text-align: center;
 }
+ 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 
 .header li:nth-child(1n +1) {
@@ -32,9 +38,10 @@ h1 {
     display: inline;
     position: relative;
     right: 20px;
+
 }
 
-.header li:hover{
+.header li:hover {
     background-color: rgb(235, 207, 150);
 }
 
@@ -45,13 +52,13 @@ h1 {
     margin: 100px;
     margin-top: 25px;
     padding: 10px;
-    }
+}
 
-p{
+p {
     text-align: left;
 }
 
-.description:hover{
+.description:hover {
     background-color: rgb(201, 187, 161);
     border: 3px solid black;
 }
@@ -75,12 +82,12 @@ h2 {
     font-size: 18px;
 }
 
-.education:hover{
+.education:hover {
     background-color: rgb(153, 147, 133);
     border: 3px solid black;
 }
 
-.education div:hover{
+.education div:hover {
     background-color: lightgray;
     border: 2px solid black;
 }
@@ -115,7 +122,7 @@ h2 {
     font-size: 18px;
 }
 
-.myskills:hover{
+.myskills:hover {
     background-color: rgb(238, 240, 115);
     border: 3px solid black;
 }
@@ -148,7 +155,7 @@ td {
     text-align: left;
 }
 
-.projects:hover{
+.projects:hover {
     background-color: rgb(159, 204, 167);
     border: 3px solid black;
 }
@@ -166,11 +173,11 @@ td {
     bottom: 10px;
 }
 
-.projects button:hover{
+.projects button:hover {
     background-color: rgb(40, 224, 73);
 }
 
-footer{
+footer {
     border: 15px;
     background-color: black;
     color: white;
@@ -180,7 +187,7 @@ footer{
     font-size: 18px;
 }
 
-.project_1{
+.project_1 {
     border: 3px;
     background-color: rgb(240, 226, 201);
     border-radius: 2rem;
@@ -189,15 +196,16 @@ footer{
     padding: 10px;
 }
 
-.project_1:hover{
+.project_1:hover {
     background-color: rgb(201, 187, 161);
     border: 3px solid black;
 }
-#img1:hover{
+
+#img1:hover {
     border: 3px solid rgb(237, 227, 40);
 }
 
-.project_2{
+.project_2 {
     border: 3px;
     background-color: rgb(201, 196, 183);
     border-radius: 2rem;
@@ -207,16 +215,16 @@ footer{
     font-size: 18px;
 }
 
-.project_2:hover{
+.project_2:hover {
     background-color: rgb(153, 147, 133);
     border: 3px solid black;
 }
 
-#img2:hover{
+#img2:hover {
     border: 3px solid rgb(237, 227, 40);
 }
 
-.project_3{
+.project_3 {
     border: 3px;
     background-color: rgb(146, 171, 125);
     border-radius: 2rem;
@@ -226,31 +234,31 @@ footer{
     font-size: 18px;
 }
 
-.project_3:hover{
+.project_3:hover {
     background-color: rgb(159, 204, 167);
     border: 3px solid black;
 }
 
-#img3:hover{
-   border: 3px solid rgb(134, 240, 46);
+#img3:hover {
+    border: 3px solid rgb(134, 240, 46);
 }
 
-.contact{
+.contact {
     border: 3px;
     background-color: rgb(240, 226, 201);
     border-radius: 2rem;
     margin: 100px;
     margin-top: 25px;
-    padding: 10px; 
+    padding: 10px;
     text-align: justify center;
 }
 
-.contact:hover{
+.contact:hover {
     background-color: rgb(201, 187, 161);
     border: 3px solid black;
 }
 
-.socialmedia{
+.socialmedia {
     border: 3px;
     background-color: rgb(201, 196, 183);
     border-radius: 2rem;
@@ -260,18 +268,17 @@ footer{
     font-size: 18px;
 }
 
-.socialmedia:hover{
+.socialmedia:hover {
     background-color: rgb(153, 147, 133);
     border: 3px solid black;
 }
 
-input:hover{
+input:hover {
     background-color: rgb(242, 245, 220);
     border: 3px solid black;
 }
 
-textarea:hover{
+textarea:hover {
     background-color: rgb(242, 245, 220);
     border: 3px solid black;
 }
-
