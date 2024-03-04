@@ -1,0 +1,12 @@
+article{
+    background-color: bisque;
+    display:inline-block;   
+}
+
+p{
+    width: 200px;
+    background-color: rgb(188, 188, 188);
+    padding: 20px;
+    border: 3px solid black;
+    margin: 50px;
+}

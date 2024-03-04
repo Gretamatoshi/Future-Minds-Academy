@@ -1,0 +1,15 @@
+.paragraph1:hover {
+    background-color: lightblue;
+    border: 2px solid blue
+   
+}
+
+.paragraph2:hover {
+    background-color: lightpink;
+    border: 2px solid palevioletred;
+}
+
+p:hover::first-letter{
+    font-size: 30px;
+}
+

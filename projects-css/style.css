@@ -1,0 +1,277 @@
+body {
+    background-image: url(images/background.jfif);
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+    font-family: sans-serif;
+    cursor: url(images/cursor.png) ,auto;
+}
+
+hr{
+    margin:0px 100px;
+    border-color: black;
+}
+
+
+h1 {
+    font-size: 2rem;
+}
+
+.header {
+    text-align: center;
+}
+
+
+.header li:nth-child(1n +1) {
+    background-color: rgb(115, 106, 90);
+    color: white;
+    text-transform: none;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 8px;
+    display: inline;
+    position: relative;
+    right: 20px;
+}
+
+.header li:hover{
+    background-color: rgb(235, 207, 150);
+}
+
+.description {
+    border: 3px;
+    background-color: rgb(240, 226, 201);
+    border-radius: 2rem;
+    margin: 100px;
+    margin-top: 25px;
+    padding: 10px;
+    }
+
+p{
+    text-align: left;
+}
+
+.description:hover{
+    background-color: rgb(201, 187, 161);
+    border: 3px solid black;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#myphoto {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.education {
+    border: 3px;
+    background-color: rgb(201, 196, 183);
+    border-radius: 2rem;
+    margin: 100px;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.education:hover{
+    background-color: rgb(153, 147, 133);
+    border: 3px solid black;
+}
+
+.education div:hover{
+    background-color: lightgray;
+    border: 2px solid black;
+}
+
+.primaryschool,
+.highschool,
+.uni {
+    text-align: left;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 2px 2px rgb(97, 83, 51);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    list-style-type: none;
+
+}
+
+#id1,
+#id2,
+#id3 {
+    color: gray;
+    font-weight: bold;
+}
+
+.myskills {
+    border: 3px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 2rem;
+    margin: 100px;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.myskills:hover{
+    background-color: rgb(238, 240, 115);
+    border: 3px solid black;
+}
+
+table,
+th,
+td {
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(230, 235, 164);
+}
+
+td {
+    text-decoration: underline;
+}
+
+.projects {
+    border: 3px;
+    background-color: rgb(146, 171, 125);
+    border-radius: 2rem;
+    margin: 100px;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.projects:hover{
+    background-color: rgb(159, 204, 167);
+    border: 3px solid black;
+}
+
+
+
+.projects button {
+    background-color: rgb(190, 230, 197);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    bottom: 10px;
+}
+
+.projects button:hover{
+    background-color: rgb(40, 224, 73);
+}
+
+footer{
+    border: 15px;
+    background-color: black;
+    color: white;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.project_1{
+    border: 3px;
+    background-color: rgb(240, 226, 201);
+    border-radius: 2rem;
+    margin: 100px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.project_1:hover{
+    background-color: rgb(201, 187, 161);
+    border: 3px solid black;
+}
+#img1:hover{
+    border: 3px solid rgb(237, 227, 40);
+}
+
+.project_2{
+    border: 3px;
+    background-color: rgb(201, 196, 183);
+    border-radius: 2rem;
+    margin: 100px;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.project_2:hover{
+    background-color: rgb(153, 147, 133);
+    border: 3px solid black;
+}
+
+#img2:hover{
+    border: 3px solid rgb(237, 227, 40);
+}
+
+.project_3{
+    border: 3px;
+    background-color: rgb(146, 171, 125);
+    border-radius: 2rem;
+    margin: 100px;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.project_3:hover{
+    background-color: rgb(159, 204, 167);
+    border: 3px solid black;
+}
+
+#img3:hover{
+   border: 3px solid rgb(134, 240, 46);
+}
+
+.contact{
+    border: 3px;
+    background-color: rgb(240, 226, 201);
+    border-radius: 2rem;
+    margin: 100px;
+    margin-top: 25px;
+    padding: 10px; 
+    text-align: justify center;
+}
+
+.contact:hover{
+    background-color: rgb(201, 187, 161);
+    border: 3px solid black;
+}
+
+.socialmedia{
+    border: 3px;
+    background-color: rgb(201, 196, 183);
+    border-radius: 2rem;
+    margin: 100px;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.socialmedia:hover{
+    background-color: rgb(153, 147, 133);
+    border: 3px solid black;
+}
+
+input:hover{
+    background-color: rgb(242, 245, 220);
+    border: 3px solid black;
+}
+
+textarea:hover{
+    background-color: rgb(242, 245, 220);
+    border: 3px solid black;
+}
+

@@ -1,0 +1,13 @@
+h1{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
+h2{
+    background-color: black;
+    color: white;
+} 
+p{
+    width: 300px;
+    color: rgb(225, 141, 155);
+}

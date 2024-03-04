@@ -1,0 +1,31 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+p {
+    background-color: lightgray;
+    display: inline-block;
+    font-size: 30px;
+    padding: 16px;
+}
+
+
+#L {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    text-decoration: underline #ff4500;
+    ;
+    text-transform: uppercase;
+}
+
+#lorem {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
