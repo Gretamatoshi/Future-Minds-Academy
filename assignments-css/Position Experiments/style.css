@@ -1,11 +1,52 @@
-section{
-    border: 3px solid lightgray;
-    
+*{
+    margin: 0;
+    padding: 0;
 }
 
+div{
+    border: 3px solid whitesmoke;
+    box-shadow: 10px 10px 15px 10px lightgray;
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+}
 
 h1{
     position: relative;
-    bottom: 130px;
+    bottom: 25px;
+    left: 15px;
 }
 
+button{
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    border: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 70px;
+    right: -10px;
+}
+
+p{
+    margin-bottom: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+video{
+    width: 300px;
+    position: fixed;
+    right: 50px;
+    bottom: 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+h3{
+    position: fixed;
+    right: 130px;
+    bottom: 33px;
+}

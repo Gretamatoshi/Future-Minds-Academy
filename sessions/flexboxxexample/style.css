@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+nav {
+    display: flex;
+    background-color: pink;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-decoration: none;
+    color: white;
+   padding: 0.5em;
+}
+
+a:not(:last-child) {
+    border-right: 1px dashed blue;
+}

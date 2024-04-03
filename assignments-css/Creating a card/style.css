@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    display: flex;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+    box-shadow: 5px 8px 8px 8px lightgray;
+    height: 350px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card-date{
+    position: absolute;
+    right: 25px;
+}
+
+.card-price, .card-date{
+    display: inline;
+}
+
+.card-price{
+    border-right: 2px solid black;
+    padding: 20px;
+}
+
+.price{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.card-image{
+    position: relative;
+ }
+
+.card-copyright{
+   position: absolute;
+   bottom: 220px;
+   color: white;
+   font-weight: bold;
+   padding: 5px;
+}
+
+

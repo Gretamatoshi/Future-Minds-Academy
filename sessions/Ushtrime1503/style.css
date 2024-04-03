@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: red;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    height: 100vh;
+    
+}
+
+
+aside{
+    background-color: purple;
+    
+
+}
+
+.section1{
+    background-color: green;
+}
+
+.section2{
+    background-color: pink;
+}
+
+.section3{
+    background-color: yellow;
+}
+
+footer{
+    background-color: blue;
+}
+
+div{
+    background-color: lightblue;
+}

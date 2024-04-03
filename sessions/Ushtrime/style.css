@@ -1,0 +1,14 @@
+body{
+    display: flex;
+}
+.inline{
+    
+    gap: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.color{
+    background-color: lightblue;
+    padding: 40px;
+}

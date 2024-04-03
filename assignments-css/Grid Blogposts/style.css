@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    overflow: hidden;
+}
+
+aside{
+    background-color: rgb(51, 91, 102);
+    color: white;
+    padding: 20px;
+    width: 200px;
+    place-content: center;
+    text-align: end;
+}
+
+.side-list {
+    line-height: 1.2;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: rgb(109, 156, 168);
+    font-size: 27px;
+}
+
+.login-button {
+    color: white;
+    background-color: transparent;
+    border: 3px solid rgb(109, 156, 168);
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    text-transform: uppercase;
+}
+
+main{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 80px;
+    position: relative;
+}
+
+.posts {
+    color: lightgrey;
+    text-transform: uppercase;
+}
+
+hr {
+    border: 1px solid lightgray;
+    width: 75vw;
+}
+
+.post-header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.fig1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 95px;
+    right: 85px;
+}
+
+.fig2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 215px;
+    right: 85px;
+}
+
+a{
+    color: rgb(47, 100, 225);
+    text-decoration: none;
+
+}
+
+.post-description{
+    color: gray;
+}
+
+.button{
+    border: none;
+    width: 60px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.button3{
+    background-color: red;
+    border: none;
+    width: 80px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.post-paragraph{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif
+}
