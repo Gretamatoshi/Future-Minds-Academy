@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: white;
+    --color: white;
+}
+
+body {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    overflow-x: hidden;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.padding {
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.padding-1 {
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.font-p {
+    font-size: 18px;
+    color: gray;
+}
+
+.bgWhite {
+    background-color: var(--bg-color);
+    border-radius: 5px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    margin: 0px 10px;
+}
+
+/* Aside*/
+.fig {
+    border-radius: 50%;
+    width: 30px;
+}
+
+.circle {
+    background-color: var(--bg-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px rgb(179, 178, 178);
+}
+
+.circle:hover {
+    box-shadow: 0px 0px 18px 0px rgb(179, 178, 178);
+}
+
+aside {
+    background-image: url(assets/images/sidebar-1.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
+    background-position: center;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+#coolPage {
+    color: var(--color);
+    font-size: 20px;
+    padding: 0px 0px 20px 20px;
+}
+
+.asideLinks {
+    color: var(--color);
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.asideLinks:hover {
+    background-color: rgba(218, 211, 201, 0.2);
+}
+
+/* Header*/
+.container {
+    background-color: rgb(230, 227, 227);
+    padding: 0px 20px;
+    overflow-y: scroll;
+}
+
+.headerDesktop {
+    margin: 10px;
+    cursor: pointer;
+    ;
+}
+
+.headerTel {
+    margin-top: 20px;
+    display: none;
+}
+
+header div {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.notifications {
+    position: relative;
+}
+
+.number {
+    border-radius: 50%;
+    background-color: red;
+    color: var(--color);
+    border: 1px solid white;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 15px;
+    right: -4px;
+    font-size: 13px;
+}
+
+.notificationMsg {
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 300px;
+    display: none;
+    position: absolute;
+    text-align: start;
+
+}
+
+.notifications:hover .notificationMsg {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.notificationMsg p {
+    padding: 10px;
+    width: 290px;
+}
+
+.notificationMsg p:hover {
+    background-color: red;
+    color: var(--color);
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.form input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid gray;
+    transition: border-bottom 2s ease;
+}
+
+.form input:focus {
+    border-bottom: 2px solid purple;
+}
+
+/* Main */
+.card-1 {
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+.global-sales {
+    display: flex;
+    gap: 1rem;
+}
+
+.cardIcon {
+    transform: translateY(-30px);
+    padding: 20px;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+.flag-image {
+    width: 20px;
+}
+
+.table {
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.text-align-table {
+    text-align: end;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 2px solid lightgray;
+}
+
+td {
+    padding: 10px;
+}
+
+.border {
+    border: none;
+}
+
+.table-map {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2rem;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.card-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 20px;
+}
+
+.card-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 100px;
+}
+
+.lists {
+    text-align: center;
+    margin: 50px 0;
+    background-color: var(--bg-color);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.cardListing {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.cardImg {
+    transform: translateY(-50px);
+    width: 350px;
+    transition: transform 1s ease;
+    border-radius: 8px;
+    cursor: pointer;
+    ;
+}
+
+.cardListing:hover .cardImg {
+    transform: translateY(-80px);
+}
+
+.cardListingIcon {
+    position: absolute;
+    bottom: 30px;
+    display: none;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.cardListing:hover .cardListingIcon {
+    display: flex;
+}
+
+.cardListingFooter {
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.card3-title {
+    margin-top: 50px;
+}
+
+.listInfo{
+    padding: 0px 5px;
+}
+
+/* Footer */
+.footer-info {
+    display: flex;
+    gap: 1rem;
+}
+
+footer {
+    margin: 25px;
+}
+
+
+/* Tablets */
+@media all and (max-width: 900px) {
+    .table-map {
+        grid-template-columns: 1fr;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    aside {
+        display: none;
+    }
+
+    .headerDesktop {
+        display: none;
+    }
+
+    .headerTel {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media all and (max-width:900px) {
+    .card-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .cardListing {
+        margin: 30px;
+    }
+
+    .cardImg {
+        width: 720px;
+    }
+}
+
+/* Phones */
+@media all and (max-width:550px) {
+    .card-2{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media all and (max-width:550px) {
+    .cardImg {
+        width: 420px;
+    }
+}
