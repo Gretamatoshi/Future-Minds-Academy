@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +18,9 @@
 body {
     height: 100vh;
     font-family: "Roboto", sans-serif;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: auto 1fr;
     grid-template-columns: auto 1fr;
     overflow-x: hidden;
 }
@@ -49,8 +58,12 @@ body {
 }
 
 .d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .line {
@@ -68,14 +81,22 @@ body {
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 5px 0px rgb(179, 178, 178);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(179, 178, 178);
+            box-shadow: 0px 0px 5px 0px rgb(179, 178, 178);
 }
 
 .circle:hover {
-    box-shadow: 0px 0px 18px 0px rgb(179, 178, 178);
+    -webkit-box-shadow: 0px 0px 18px 0px rgb(179, 178, 178);
+            box-shadow: 0px 0px 18px 0px rgb(179, 178, 178);
 }
 
 aside {
@@ -96,9 +117,13 @@ aside {
 .asideLinks {
     color: var(--color);
     padding: 15px;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: auto 1rem 1fr 1rem auto;
     grid-template-columns: auto 1fr auto;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 1rem;
     cursor: pointer;
 }
@@ -126,9 +151,13 @@ aside {
 }
 
 header div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 1.5rem;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .notifications {
@@ -142,9 +171,15 @@ header div {
     border: 1px solid white;
     height: 18px;
     width: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     position: absolute;
     bottom: 15px;
     right: -4px;
@@ -154,8 +189,13 @@ header div {
 .notificationMsg {
     background-color: var(--bg-color);
     border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 10px;
     width: 300px;
     display: none;
@@ -165,6 +205,8 @@ header div {
 }
 
 .notifications:hover .notificationMsg {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: absolute;
     right: 20px;
@@ -182,8 +224,12 @@ header div {
 }
 
 .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .form input {
@@ -191,6 +237,8 @@ header div {
     outline: none;
     background-color: transparent;
     border-bottom: 2px solid gray;
+    -webkit-transition: border-bottom 2s ease;
+    -o-transition: border-bottom 2s ease;
     transition: border-bottom 2s ease;
 }
 
@@ -202,19 +250,28 @@ header div {
 .card-1 {
     background-color: var(--bg-color);
     border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 2rem;
     margin-top: 50px;
 }
 
 .global-sales {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 1rem;
 }
 
 .cardIcon {
-    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+            transform: translateY(-30px);
     padding: 20px;
     margin: 10px;
     margin-left: 20px;
@@ -255,26 +312,36 @@ td {
 }
 
 .table-map {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: auto 2rem 1fr;
     grid-template-columns: auto 1fr;
     gap: 2rem;
 }
 
 .card-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: gray;
 }
 
 .card-2 {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 2rem 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin-top: 20px;
 }
 
 .card-3 {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 2rem 1fr 2rem 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     margin-top: 100px;
@@ -286,26 +353,39 @@ td {
     background-color: var(--bg-color);
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.75);
 }
 
 .cardListing {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .cardImg {
-    transform: translateY(-50px);
+    -webkit-transform: translateY(-50px);
+        -ms-transform: translateY(-50px);
+            transform: translateY(-50px);
     width: 350px;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: -webkit-transform 1s ease;
+    -o-transition: transform 1s ease;
     transition: transform 1s ease;
+    transition: transform 1s ease, -webkit-transform 1s ease;
     border-radius: 8px;
     cursor: pointer;
     ;
 }
 
 .cardListing:hover .cardImg {
-    transform: translateY(-80px);
+    -webkit-transform: translateY(-80px);
+        -ms-transform: translateY(-80px);
+            transform: translateY(-80px);
 }
 
 .cardListingIcon {
@@ -317,11 +397,15 @@ td {
 }
 
 .cardListing:hover .cardListingIcon {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .cardListingFooter {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 10px 5px;
 }
 
@@ -335,6 +419,8 @@ td {
 
 /* Footer */
 .footer-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 1rem;
 }
@@ -347,6 +433,7 @@ footer {
 /* Tablets */
 @media all and (max-width: 900px) {
     .table-map {
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     }
 
@@ -365,14 +452,19 @@ footer {
     }
 
     .headerTel {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
 
 }
 
 @media all and (max-width:900px) {
     .card-3 {
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     }
 
@@ -388,6 +480,7 @@ footer {
 /* Phones */
 @media all and (max-width:550px) {
     .card-2{
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     }
 }
